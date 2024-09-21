@@ -1,0 +1,159 @@
+.header {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;             
+    background-color: #005677;      
+    padding: 20px;                   
+    color: white;                   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header h4 {
+    margin: 0;                      
+    font-size: 24px;
+}
+
+.lista {
+    padding: 0;                      
+    margin: 0;                       
+    list-style-type: none;           
+}
+
+.lista li {
+    font-size: 18px;                 
+}
+
+.section1 {
+    background-color: #37718e;
+    padding: 40px 20px;             
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.section1 img {
+    width: 325px;                    
+    height: 450px;                   
+    border-radius: 50%;              
+    margin-bottom: 20px;             
+}
+
+.section1 h1 {
+    font-size: 36px;                 
+    margin: 10px 0;                  
+    color: white;                     
+}
+
+.section1 p {
+    font-size: 24px;                 
+    color: white;                     
+    margin: 10px 0;                  
+}
+
+.portfolio h2 {
+    text-align: center;
+}
+
+.separator {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.portfolio .item {
+    display: inline-block; 
+    width: 30%; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    margin-right: 1.5%; 
+    vertical-align: top; 
+}
+
+.portfolio .item img {
+    width: 100%; 
+}
+
+.portfolio .item h5 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.sobreMi {
+    padding: 30px; 
+    text-align: center; 
+    background-color: #37718e; 
+}
+
+.sobreMi h3 {
+    font-size: 28px; 
+    margin-bottom: 15px; 
+}
+
+.sobreMi p {
+    font-size: 18px; 
+    line-height: 1.5; 
+    margin: 20px auto; 
+    color: black 
+}
+
+.sobreMi button {
+    background-color: #005677; 
+    color: white; 
+    border: none; 
+    padding: 12px 25px; 
+    border-radius: 5px; 
+    font-size: 18px; 
+}
+
+.footer {
+    background-color: #744562;
+    padding: 10px; 
+    text-align: center; 
+    color: white; 
+}
+
+.footer p {
+    margin: 0; 
+    font-size: 16px; 
+}
+
+@media (max-width: 768px) {
+    .portfolio .item {
+        width: 100%; 
+        margin-right: 0; 
+    }
+
+    .section1 img {
+        width: 80%; 
+        height: auto; 
+    }
+
+    .section1 h1 {
+        font-size: 28px; 
+    }
+
+    .section1 p {
+        font-size: 20px; 
+    }
+
+    .sobreMi h3 {
+        font-size: 24px; 
+    }
+
+    .sobreMi p {
+        font-size: 16px; 
+    }
+
+    .sobreMi button {
+        padding: 10px 20px; 
+    }
+
+    .footer p {
+        font-size: 14px; /
+    }
+}
+
+
+
+
+
